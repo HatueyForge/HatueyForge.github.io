@@ -1,9 +1,51 @@
-theme: jekyll-theme-minimal
-title: [HatueyForge ML API]
-description: [HatueyForge blog entries and API guide.]
+# _config.yml for hatueyforge.github.io
 
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "G-JZ6NZNKM6H" # Replace with your GA4 Measurement ID
-    anonymize_ip: false # Optional: set to true for IP anonymization
+title: Hatuey Forge | ML & Data Visualization Blog # Your blog's main title, displayed in browser tabs and site headers.
+email: hatueyforge@proton.me
+description: "Exploring machine learning, data visualization, real estate analytics, and geospatial insights with Python and JavaScript."
+url: "https://hatueyforge.github.io"            # The base hostname & protocol for your site. Crucial for sitemaps, RSS, and absolute URLs.
+baseurl: ""                                     # IMPORTANT: For a User/Organization Page (your-username.github.io), this must be an empty string "".
+
+google_analytics: "G-JZ6NZNKM6H"
+
+markdown: kramdown                            # Markdown processor. Kramdown is versatile and widely used.
+highlighter: rouge                            # Code syntax highlighter for code blocks.
+permalink: /:categories/:year/:month/:day/:title/ # The URL structure for your blog posts.
+                                                  # This will produce URLs like:
+                                                  # /webdev/2025/06/18/A-Recommender-For-Listings/
+                                                  # Which matches your desired structure.
+                                                  # Note: The .html extension is usually omitted by Jekyll for clean URLs.
+
+excerpt_separator: <!--more-->                # Defines where Jekyll will cut off the excerpt for posts in a list.
+                                                  # Add <!--more--> in your Markdown to control it manually,
+                                                  # otherwise Jekyll uses the first paragraph by default.
+
+
+remote_theme: "pages-themes/minimal@v0.2.0"         # Example: The default Jekyll theme (Minima).
+
+
+plugins:
+  - jekyll-feed       # Generates an Atom (RSS) feed for your blog posts.
+  - jekyll-sitemap    # Generates a sitemap.xml file, essential for SEO.
+  - jekyll-seo-tag    # Adds SEO-friendly metadata, Open Graph (for social media), and Twitter card tags. Highly recommended.
+  - jekyll-remote-theme # REQUIRED if you uncomment and use a `remote_theme` above.
+
+defaults:
+  - scope:
+      path: ""         # An empty string for the path means all files
+      type: "posts"    # Apply to all files within the `_posts` directory
+    values:
+      layout: "post"   # Default layout for all blog posts.
+      author: "Hatuey Forge" # Your name or blog's author.
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

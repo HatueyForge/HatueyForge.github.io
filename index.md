@@ -19,16 +19,6 @@ My goal is to demystify complex concepts and share practical approaches that you
 
 ### Latest Insights & Projects
 
-<!--
-    IMPORTANT: Many Jekyll themes will automatically display a list of your latest blog posts
-    on the homepage when you use a layout like 'default' or 'home'.
-    You might NOT need the Liquid code below.
-
-    However, if your theme does NOT automatically list posts, you can uncomment
-    and use the following Liquid code to display recent articles.
--->
-
-{% comment %}
 {% for post in site.posts limit: 5 %}
   <article>
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
@@ -37,9 +27,7 @@ My goal is to demystify complex concepts and share practical approaches that you
     <p><a href="{{ post.url | relative_url }}">Read more »</a></p>
   </article>
 {% endfor %}
-{% endcomment %}
 
-<!-- If you uncommented the Liquid code, remove this placeholder text. -->
 Stay tuned for new articles and project updates!
 
 ---

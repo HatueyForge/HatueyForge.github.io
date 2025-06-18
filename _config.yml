@@ -1,8 +1,8 @@
 # _config.yml for hatueyforge.github.io
 
-title: Hatuey Forge | ML & Data Visualization Blog # Your blog's main title, displayed in browser tabs and site headers.
+title: HatueyForge | Practical ML # Your blog's main title, displayed in browser tabs and site headers.
 email: hatueyforge@proton.me
-description: "Exploring machine learning, data visualization, real estate analytics, and geospatial insights with Python and JavaScript."
+description: "Exploring different machine learning techniques and applications."
 url: "https://hatueyforge.github.io"            # The base hostname & protocol for your site. Crucial for sitemaps, RSS, and absolute URLs.
 baseurl: ""                                     # IMPORTANT: For a User/Organization Page (your-username.github.io), this must be an empty string "".
 
@@ -22,7 +22,6 @@ excerpt_separator: <!--more-->                # Defines where Jekyll will cut of
 
 
 remote_theme: "pages-themes/minimal@v0.2.0"         # Example: The default Jekyll theme (Minima).
-
 
 plugins:
   - jekyll-feed       # Generates an Atom (RSS) feed for your blog posts.

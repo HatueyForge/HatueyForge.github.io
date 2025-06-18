@@ -1,3 +1,9 @@
 theme: jekyll-theme-minimal
 title: [HatueyForge ML API]
 description: [HatueyForge blog entries and API guide.]
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-JZ6NZNKM6H" # Replace with your GA4 Measurement ID
+    anonymize_ip: false # Optional: set to true for IP anonymization

@@ -7,7 +7,7 @@ title: Hatuey Forge | Practical ML
 
 Welcome to HatueyForge, our space for sharing hands-on projects and insights across **Data Science** and **Applied Artificial Intelligence**. Here, we'll embark on a journey that begins with a specific business need or opportunity (or sometimes just curiosity!), meticulously transforming raw data into meaningful insights and functional solutions.
 
-Our work often involves tackling real-world challenges from concept to deployment. This encompasses not only technical execution, but also orchestrating complex project components and integrating diverse technical efforts required to bring impactful solutions to life. The [Puerto Rico Real Estate Recommender](https://hatueyforge.github.io/prlistingrecommender/) is a good example of an **end-to-end system**, from data acquisition and processing to a deployed, interactive visualization designed for practical use.
+We focus on tackling real-world challenges from concept to deployment. This encompasses not only technical execution, but also orchestrating complex project components and integrating diverse technical efforts required to bring impactful solutions to life. The [Puerto Rico Real Estate Recommender](https://hatueyforge.github.io/prlistingrecommender/) is a good example of an **end-to-end system**, from data acquisition and processing to a deployed, interactive visualization designed for practical use.
 
 On this blog, you'll find first person account of the development process, technical hurdles encountered, and lessons learned. Our aim is to share practical approaches and functional code that may be helpful to others!
 

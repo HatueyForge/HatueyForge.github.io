@@ -1,24 +1,36 @@
 ---
-layout: default # Or 'home' if your chosen theme has a specific 'home.html' layout. 'default' is a safe fallback.
-title: Welcome to Hatuey Forge | ML & Data Visualization Blog # Page-specific title. This will override the global title if layout uses it.
+layout: default
+title: Hatuey Forge | Data & AI Projects
 ---
 
-## Welcome to Hatuey Forge!
+## Exploring Data, Building AI Solutions
 
-Greetings! I'm excited to share my journey and projects at the intersection of **Machine Learning**, **Data Visualization**, and **Geospatial Analytics**. This blog serves as a space to delve into the technical details, challenges, and fascinating insights gleaned from working with data, particularly within the real estate domain.
+Hello, World! Welcome to HatueyForge, our space for sharing hands-on projects and insights from the realms of **Data Science** and **Applied Artificial Intelligence**. Here, we embark on a journey that begins with a specific business need or opportunity (or just curiosity!), transforming raw data into meaningful insights and functional solutions.
 
-You'll find posts covering:
-*   In-depth tutorials on building interactive data visualizations (like my [Puerto Rico Real Estate Recommender](https://hatueyforge.github.io/prlistingrecommender/)).
-*   Explorations of machine learning models applied to real-world datasets.
-*   Discussions on geospatial analysis techniques and tools.
-*   Tips and tricks for developing with Python, JavaScript, and various data frameworks.
+We keep in mind, and will comment upon, real-world challenges in taking a prokect from concept to deployment. This often encompasses not only the technical execution, but also evaluating and choosing a technology stack, orchestrating of complex project components and the integration of diverse technical efforts to bring impactful solutions to life. For instance, the [Puerto Rico Real Estate Recommender](https://hatueyforge.github.io/prlistingrecommender/) is an example of an **end-to-end system**, from data acquisition and processing to a deployed, interactive visualization designed for practical use. While geospatial analysis is a fascinating part of our interests, we will also explore diverse applications, such as building robust classification models for complex datasets or developing recommender systems for various industries.
 
-My goal is to demystify complex concepts and share practical approaches that you can adapt for your own projects. Whether you're a fellow data enthusiast, a real estate professional, or just curious about how technology can transform data into actionable insights, I hope you find something valuable here.
+On this blog, you'll find an honest look at the development process, the technical hurdles encountered, and the lessons learned. Our aim is to share practical approaches and functional code that may be helpful to others.
+
+Our posts will cover these areas:
+
+*   **Applied Machine Learning:** Building and deploying models to address specific challenges.
+*   **Data Pipelines & Engineering:** AI models need data, here we'll see the journey it takes from source to solution.
+*   **Data Visualization:** If humans will make decisions based on AI recommendations, clear and interactive ways to understand data are essential.
+*   **System Design & Deployment:** Can we get out a minimum viable prototype? What about scaling? Bridging the gap from prototype to usable application.
+*   **Machine Learning Foundations & Customization:** Frameworks and libraries have plenty of pre-built components, but we need to understand what's going on to troubleshoot or extend them. Deep dives into algorithms, loss functions, optimization techniques, and advanced model tuning.
 
 ---
 
-### Latest Insights & Projects
+### Recent Posts
 
+<!-- IMPORTANT: Many Jekyll themes will automatically display a list of your latest blog posts
+     on the homepage when you use a layout like 'default' or 'home'.
+     You might NOT need the Liquid code below.
+
+     However, if your theme does NOT automatically list posts, you can uncomment
+     and use the following Liquid code to display recent articles. -->
+
+{% comment %}
 {% for post in site.posts limit: 5 %}
   <article>
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
@@ -27,9 +39,12 @@ My goal is to demystify complex concepts and share practical approaches that you
     <p><a href="{{ post.url | relative_url }}">Read more »</a></p>
   </article>
 {% endfor %}
-
-Stay tuned for new articles and project updates!
+{% endcomment %}
 
 ---
 
-<!--Feel free to connect with me on [LinkedIn](link-to-your-linkedin-profile) or [GitHub](link-to-your-github-profile).-->
+**Connect with us:** [GitHub](https://github.com/HatueyForge) | <a href="mailto:HatueyForge@proton.me">Email</a>
+
+<p style="font-size: 0.8em; color: #777; margin-top: 2em;">
+    *This site's content and structure were brainstormed and refined with the helpful assistance of AI.*
+</p>

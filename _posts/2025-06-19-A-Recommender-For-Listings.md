@@ -12,7 +12,7 @@ Let's start with the end result - a map showing listing recommendations for diff
   <iframe src="https://hatueyforge.github.io/prlistingrecommender/" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Whole-page map at: [Puerto Rico Real Estate Recommender](https://hatueyforge.github.io/prlistingrecommender/)
+Full-page map at: [Puerto Rico Real Estate Recommender](https://hatueyforge.github.io/prlistingrecommender/)
 
 The listings are recommended using a two-tower recommender system and ranked with a multi-layer perceptron implemented using the PyTorch deep learning framework.
 
